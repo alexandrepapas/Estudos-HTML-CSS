@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+
+
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            table-layout: fixed;
+            text-align: center;
+            position: relative; /* comando usado para o cabeçalho fixo na tela */
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;  
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        
+        .num{
+
+            text-align: right;
+        }
+
+        tbody>tr:nth-child(odd){ /* TAG NTH CHILD SIGNFICA EFEITO ZEBRADO * 2N-1 SIGNIFICA EFEITO par */
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even){ /* EVEN SIGNIFICA EFEITO IMPAR 2N */
+            background-color: lightgray; 
+            
+             
+        
+        }
+
+            caption{
+                font-size: 1.5em;
+                font-weight: bold;
+                padding: 9px;
+                background-color: lightgray;
+              
+            }
+    </style>
+
+
+</head>
+
+
+
+
+<body>
+    <h1>USO DE TABELAS GRANDE ESCALA</h1>
+
+
+    <!-- ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        
+        CAPTION = USADO PARA COLOCAR UM TEXTO  
+        THEAD
+            TR, TD, TH
+       
+        TBODY
+            TR, TD, TH
+    
+        TFOOTER 
+            TR. TD, TH
+    
+    -->
+    <table>
+        <CAPtion>POPLUAÇÃO DAS CIDADE FEDERATIVAS </CAPtion>
+    
+        <thead>
+        <tr>
+            <TH scope="col">ESTADO</TH>
+            <TH scope="col" style="width: 95px;">POPLUAÇÃO</TH>
+
+        </tr>
+    </thead>
+
+    <tfoot>
+
+        <tr>
+            <th scope="row">Total de habitantes</th>
+            <td class="num"><strong>210 147 125</strong></td>
+        </tr>
+
+    </tfoot>
+    <tbody>
+        <TR>
+
+            <Td>São Paulo</TD>
+            <td class="num">45 919</td>
+
+
+
+        </TR>
+   
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">21 668 971</td>
+        </tr>
+
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">17 264 943</td  >
+        </tr>
+
+
+        <tr>
+            
+            <td>Bahia</td>
+            <td class="num">17 168 791</td>
+        </tr>
+
+    
+        <tr>
+            <td>Paraná</td>
+            <td class="num">11 433 957</td>
+
+        </tr>
+    
+        <tr>
+            <td>Rio Grande do Sul </td>
+            <td class="num">11 377 239</td>
+        </tr>
+    
+
+        <tr>
+            <td>Pernabunco</td>
+            <td class="num">9 557 071</td>
+        </tr>
+    
+    
+        <tr>
+            <td>Ceará</td>
+            <td class="num">9 132 071</td>
+        </tr>
+    
+
+        <tr>
+            <td>Pará</td>
+            <td class="num">8 605 685</td>
+        </tr>
+
+
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="num">7 164 788</td>
+        </tr>
+ 
+
+        <tr>
+            <td>Maranhão</td>
+            <td class="num">7 075 181</td>
+
+        </tr>
+    
+        
+        <tr>
+            <td>Góias</td>
+            <td class="num">7 018 354</td>
+        
+        </tr>
+
+
+        <tr>
+            <td>Amazonas</td>
+            <td class="num">4 144 597</td>   
+        </tr>
+
+        
+        <tr>
+            <td>Espirto Santo</td>
+            <td class="num">4 018 127</td>
+        </tr>
+    
+    
+        <tr>
+            <td>Paraíba</td>
+            <td class="num">4 018 127</td>
+        </tr>
+    
+    
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class="num">3 506 853</td>
+        </tr>
+    
+    
+        <tr>
+            <td>Mato Grosso</td>
+            <td class="num">3 484 466</td>
+        </tr>
+
+
+
+    
+    
+    </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi laudantium omnis, odit dolores rerum, fugiat quam blanditiis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eius totam quia fugiat eos velit vel, repellat inventore, blanditiis cupiditate deleniti deserunt magni impedit, labore aliquid repudiandae aperiam exercitationem necessitatibus. exercitationem quaerat quasi veniam. Laudantium magni, accusamus odio molestiae ipsam dignissimos blanditiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi laudantium omnis, odit dolores rerum, fugiat quam blanditiis exercitationem quaerat quasi veniam. Laudantium magni, accusamus odio molestiae ipsam dignissimos Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nisi accusantium architecto mollitia saepe accusamus expedita laborum. Atque commodi quasi illum, rem unde esse, accusantium dolores exercitationem dolorem placeat repudiandae. blanditiis?</p>
+    <p>Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim aperiam labore facere eius maxime ipsam perspiciatis aspernatur accusantium dolor odit velit repellendus ex et beatae fugit eaque, necessitatibus nulla unde. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam pariatur sapiente natus. Accusantium consequatur, error iste dolorum minus atque harum ullam quo molestias aspernatur a eaque deserunt suscipit aut. Ut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias officia dolorum quaerat dicta nam repellat odit quia corrupti, iste atque voluptatibus illo praesentium. Corrupti magnam iure, perferendis repellendus perspiciatis repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia itaque sint, quae animi iure obcaecati in dolorum pariatur harum sit ipsum, nisi facere, at saepe soluta cumque id nostrum necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos illum rem repellendus sequi sint delectus, quibusdam enim dolore dolor maxime nemo ea totam explicabo molestias voluptates aliquam rerum sit iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur nesciunt voluptatibus consectetur debitis ut autem voluptate beatae mollitia fuga dolorum, inventore atque id quod? Voluptas in vero sit veniam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis recusandae eaque voluptates magnam amet totam esse, iste nobis, libero earum in tempora dolorum distinctio voluptas sapiente quae expedita. Eos, beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias iure magnam asperiores dolorem, impedit ea perferendis consequuntur ipsa possimus architecto, repellat repudiandae labore dolorum adipisci aut porro rem odio nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quo ea. Deserunt quisquam beatae aliquid, excepturi cum nihil dolores illo dignissimos non laudantium repellendus quae voluptatum facilis sapiente iusto nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptate quidem ipsa veniam mollitia consectetur iste dicta sed, quaerat dignissimos cumque. Vel temporibus numquam distinctio, labore fugiat sunt nesciunt repellendus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui atque suscipit nemo dolores enim? Magni quibusdam veritatis, architecto optio eligendi cupiditate consequatur quisquam repellat cum nam fugit tenetur. Consequuntur, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, explicabo voluptas placeat tenetur nesciunt dolore! Maxime ullam minus facere amet architecto at. Rerum necessitatibus laboriosam omnis autem voluptas reiciendis eligendi. lo 
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut quae et ducimus necessitatibus, cupiditate adipisci consequatur facilis accusantium molestias quaerat eaque laboriosam, reprehenderit aliquam aliquid. Quaerat, repudiandae explicabo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil sapiente excepturi architecto dignissimos eaque voluptatum perspiciatis iure? Sed nam harum expedita nemo eligendi quod, nesciunt quis veritatis distinctio eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus in quidem, quam natus earum doloribus corporis ad voluptatibus nisi a velit modi veritatis explicabo tempora facilis odit! Eligendi, corporis officiis. lo 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sit, dolorum minima ullam itaque ad quibusdam quae optio ea, cumque adipisci? Tempora laudantium repellendus maxime error unde? Laboriosam, voluptatibus hic!Lorem  sit amet consectetur adipisicing elit. Temporibus commodi laudantium omnis, odit dolores rerum, fugiat quam blanditiis exercitationem quaerat quasi veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo deleniti ea corporis ratione libero laboriosam aliquam veniam expedita quisquam. Illum odit, ducimus provident aliquam explicabo repudiandae dolorum unde placeat impedit. Laudantium magni, accusamus odio molestiae ipsam dignissimos blanditiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto corrupti adipisci aut a. Debitis minima, explicabo earum, deleniti asperiores libero perferendis, suscipit minus consequuntur accusamus sapiente velit deserunt repudiandae nulla!  commodi laudantium omnis, odit dolores rerum, fugiat quam blanditiis exercitationem quaerat quasi veniam. Laudantium magni, accusamus odio molestiae ipsam dignissimos blanditiis?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi laudantium omnis, odit dolores rerum, fugiat quam blanditiis exercitationem quaerat quasi veniam. Laudantium magni, accusamus odio molestiae ipsam dignissimos blanditiis?</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "UTF -8";  
+
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    /*height: 100%;*/
+}
+body{
+
+
+    background-image: linear-gradient(to right,#f1d8c9,#F2c3a7);
+}
+main{
+    background-color: aliceblue;
+    border-radius: 10px;/*tira as pontas das paginas */
+    box-shadow: 5px 5px 15px black ; /* sao coisas */ 
+    width: 600px; /* largura do texto */
+    padding: 10px; /* prenchimento */
+    margin: auto ; /* vai atualizando conforme você puxa a tela */
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px #888a088a  ;
+    color: #f39209;
+
+
+}
+h2{
+    color: #125189;
+
+}
+
+p{
+
+    text-align: justify; /* coloca as palavras todas alinhadas  exemplo. igual alinhamento  do world */
+}

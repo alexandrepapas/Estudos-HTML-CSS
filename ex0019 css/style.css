@@ -1,0 +1,33 @@
+@charset "utf -8";
+
+
+/* em html id=  "#" em css 
+    em html e class = "." esm css */
+
+
+body{
+
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+    background-color:  rgba(4, 109, 0);
+    color: white;
+}
+
+
+
+#principal{
+    text-align: center; 
+
+
+}
+
+
+
+h2{
+
+    color: rgb(73, 109, 71);
+}

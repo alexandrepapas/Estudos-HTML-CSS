@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<style>
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table{
+
+    
+    width: 400px ;
+    height: 400px;
+    border-collapse:unset;
+    
+    
+    
+}
+
+td{
+
+    border: 1px solid;
+    padding: 8px;
+    text-align:center; /* alinhamento horizontal */
+    vertical-align: middle; /* PARA COLOCAR O DADO NO MEIO , alinhamento vertical */
+    
+}
+
+
+.numero{
+    text-align: right;
+}
+
+
+
+</style>
+
+<body>
+    <h1>Tabelas</h1>
+   
+
+    <!-- TIPOS DE TABELAS 
+        TABLE ROW = LINHA DE TABELA
+        TABLE HEADER= CABEÇALHO DE TABELA
+        TABLE DATA= DADOS DE TABELA 
+    -->    
+    <table>
+
+        <TR> <!--primeira linha !-->
+            <td>A1</td>
+            <td>B1</td>
+            <TD>C1</TD>
+        </TR>
+        
+        <TR class="linha"> <!--segunda linha !-->
+
+            <TD>A2</TD>
+            <TD>B2</TD>
+            <TD class="numero">C2</TD>
+        </TR>
+
+        <TR>
+            <TD>A3</TD> <!--terceira   linha !-->
+            <TD>B3</TD>
+            <TD class="numero">C3</TD>
+        </TR>
+
+        <TR>
+            <TD>A4</TD> <!--quarta linha  linha !-->
+            <TD>B4</TD>
+            <TD >C4</TD>
+        </TR>
+        
+
+       
+    </table>
+</body>
+</html>
