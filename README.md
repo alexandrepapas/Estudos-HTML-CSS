@@ -1,2 +1,2 @@
 # Estudos de html-css
- estudos de html.css
+ Estudos e exercícios feitos com HTML- CSS
